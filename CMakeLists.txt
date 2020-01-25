@@ -29,6 +29,9 @@ add_executable(ex506_cvu
 
 	test/inc/test_type_A.h
 	test/src/test_type_A.cpp
+	
+	test/inc/read_sentence.h	
+	test/src/read_sentence.cpp
 
 	lib/inc/type_A.h
 	lib/src/type_A.cpp
