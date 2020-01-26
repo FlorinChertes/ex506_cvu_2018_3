@@ -2,7 +2,7 @@ cmake_minimum_required (VERSION 3.13)
 project (ex506_cvu_prj)
 
 IF (MSVC) 
-	# require C++17
+	# require C++20
 	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /std:c++latest")
 
 	# Activate C++ exception handling 

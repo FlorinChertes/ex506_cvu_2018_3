@@ -11,7 +11,7 @@
 void read_sentence()
 {
     std::ifstream ifs("data_cvu_2020_v31_6.txt");
-    const std::string s( (std::istreambuf_iterator<char>(ifs)), std::istreambuf_iterator<char>() );
+    const std::string s((std::istreambuf_iterator(ifs)), {} );
 
     const std::regex reg(R"(\S[\s\S]*?\.)");
     const std::sregex_iterator end;
