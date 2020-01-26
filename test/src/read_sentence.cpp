@@ -39,7 +39,7 @@ void read_sentence_hv()
     }
     const std::string s = ss.str();
 
-    const std::regex re(R"(\S[\s\S]*?\.)");
+    const std::regex re(R"(\S([^.]*\.))");
     const std::sregex_iterator end;
     for (std::sregex_iterator it(s.begin(), s.end(), re); it != end; ++it)
     {
