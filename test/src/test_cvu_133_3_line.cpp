@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "../inc/test_cvu_33_3_line.h"
-#include "../../lib/inc/cvu_33_3_line.h"
+#include "../inc/test_cvu_133_3_line.h"
+#include "../../lib/inc/cvu_133_3_line.h"
 
 int test_cvu_33_3_line()
 {

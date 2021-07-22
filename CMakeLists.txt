@@ -33,8 +33,8 @@ add_executable(ex506_cvu
 	test/inc/read_sentence.h	
 	test/src/read_sentence.cpp
 
-	test/inc/test_133_3_line.h
-	test/src/test_133_3_line.cpp
+	test/inc/test_cvu_133_3_line.h
+	test/src/test_cvu_133_3_line.cpp
 
 	lib/inc/type_A.h
 	lib/src/type_A.cpp

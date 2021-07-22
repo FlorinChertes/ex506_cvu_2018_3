@@ -4,7 +4,7 @@
 #include <read_sentence.h>
 #include <test_type_A.h>
 
-#include "../test/inc/test_cvu_33_3_line.h"
+#include "../test/inc/test_cvu_133_3_line.h"
 
 void call_test_type_A()
 {
